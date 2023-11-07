@@ -3,6 +3,22 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: "Space Grotesk", "Outfit", sans-serif;
+}
+
+.frame {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.col {
+  flex: 50%;
 }
 
 /* Nav Bar */
@@ -53,10 +69,83 @@
   font-size: 36px;
 }
 
-.profile {
+/* bio */
+
+.profilePic {
   max-width: 400px;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  right: 10%;
   z-index: -1;
+}
+
+.introBlock {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.greet {
+  text-align: center;
+}
+
+.bio {
+  text-align: left;
+}
+
+/* experience and projects */
+
+.exp {
+  justify-content: space-around;
+}
+
+.projectHead {
+  justify-content: space-between;
+}
+
+.project {
+  justify-content: space-evenly;
+  margin: 20px 0 20px 0;
+}
+
+.pic {
+  position: relative;
+}
+
+.projPic {
+  max-width: 400px;
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  z-index: -1;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(1%, -275%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.pic:hover .projPic {
+  opacity: 0.3;
+}
+
+.pic:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
