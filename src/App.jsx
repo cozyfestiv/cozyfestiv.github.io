@@ -1,5 +1,6 @@
 import "./App.css";
-import { NavBar } from "./NavBar";
+import { NavBar } from "./components/NavBar";
+import { Contact } from "./components/Contact";
 import profileVert from "./images/profile-vert.jpg";
 import wlm from "./images/wlm.png";
 import ptables from "./images/periodic-tables.png";
@@ -65,7 +66,7 @@ function App() {
       </div>
 
       <div className="projectHead row">
-        <h1>Projects</h1> <p>CONTACT ME</p>
+        <h1>Projects</h1> <button className="contact">CONTACT ME</button>
       </div>
 
       <div className="project row">
@@ -95,7 +96,7 @@ function App() {
         </div>
       </div>
 
-      <div className="project row">
+      {/* <div className="project row">
         <div className="col3">
           <h2>Accessibility</h2>
           <p>1 Year Experience</p>
@@ -104,13 +105,9 @@ function App() {
           <h2>React </h2>
           <p>1 Year Experience</p>
         </div>
-      </div>
+      </div> */}
 
-      <p>
-        Contact I would love to hear about your project and how I could help.
-        Please fill in the form, and I’ll get back to you as soon as possible.
-        Name Email Message Send message Greg Topscher
-      </p>
+      <Contact />
     </div>
   );
 }
