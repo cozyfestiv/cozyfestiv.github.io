@@ -16,11 +16,15 @@ function App() {
             I'm Greg Topscher.
           </h1>
           <p className="bioCopy">
-            Based in the Philadelphia, I'm a front-end developer passionate
-            about building accessible web apps that users love.
+            Based in Philadelphia, I'm a Front-end developer with a background
+            in art and writing looking to write code in the field of
+            Environmental sustainability. I want to connect people to under-used
+            resources and use lean code to create new solutions and make current
+            systems less wasteful. I am skilled in visual communications, with
+            an eye towards storytelling and creative problem solving.
           </p>
           <br />
-          <p>CONTACT ME</p>
+          <button className="contact">CONTACT ME</button>
         </div>
         <div className="col">
           <img src={profileVert} className="profilePic"></img>

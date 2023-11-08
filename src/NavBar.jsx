@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaFile, FaGithub, FaLinkedin } from "react-icons/fa";
 
 export function NavBar() {
   return (
@@ -9,12 +9,24 @@ export function NavBar() {
         </a>
       </div>
       <div className="navSocial">
-        <a href="https://github.com/cozyfestiv" target="_blank">
-          <FaGithub className="icon" />
-        </a>
+        <div className="wrapper">
+          <a href="https://github.com/cozyfestiv" target="_blank">
+            <FaGithub className="icon gitHub" />
+            <span className="title">GitHub</span>
+          </a>
+        </div>
+        <div className="wrapper"></div>
         <a href="https://www.linkedin.com/in/gtop/" target="_blank">
           <FaLinkedin className="icon" />
+          <span className="title linkedIn">LinkedIn</span>
         </a>
+
+        <div className="wrapper">
+          <a href="./files/Greg-Topscher-Resume.pdf" target="_blank">
+            <FaFile className="icon resume" />
+            <span className="title">Resume</span>
+          </a>
+        </div>
       </div>
     </div>
   );
