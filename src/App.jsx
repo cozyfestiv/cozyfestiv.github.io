@@ -25,7 +25,9 @@ function App() {
             an eye towards storytelling and creative problem solving.
           </p>
           <br />
-          <button className="contact">CONTACT ME</button>
+          <a href="#contactId" className="contact">
+            CONTACT ME
+          </a>
         </div>
         <div className="col">
           <img src={profileVert} className="profilePic"></img>
@@ -66,7 +68,10 @@ function App() {
       </div>
 
       <div className="projectHead row">
-        <h1>Projects</h1> <button className="contact">CONTACT ME</button>
+        <h1>Projects</h1>{" "}
+        <a href="#contactId" className="contact">
+          CONTACT ME
+        </a>
       </div>
 
       <div className="project row">

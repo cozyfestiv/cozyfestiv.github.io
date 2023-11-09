@@ -1,7 +1,7 @@
 export function Contact() {
   return (
     <div className="container">
-      <h1>Contact</h1>
+      <h1 id="contactId">Contact</h1>
       <p>
         I would love to hear about your project and how I could help. Please
         fill in the form, and I’ll get back to you as soon as possible.
