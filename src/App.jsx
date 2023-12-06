@@ -1,9 +1,8 @@
+import React from "react";
 import "./App.css";
 import { NavBar } from "./components/NavBar";
 import { Contact } from "./components/Contact";
 import profileVert from "./images/profile-vert.jpg";
-import wlm from "./images/wlm.png";
-import ptables from "./images/periodic-tables.png";
 
 function App() {
   return (
