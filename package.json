@@ -1,8 +1,8 @@
 {
-  "name": "Greg Topscher's Portfolio",
-  "version": "0.0.0",
+  "name": "greg-topschers-portfolio",
+  "version": "0.1.0",
   "type": "module",
-  "homepage": "cozyfestiv.github.io",
+  "homepage": "https://cozyfestiv.github.io",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -25,6 +25,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "gh-pages": "^6.1.0",
-    "vite": "^5.0.2"
+    "vite": "^5.0.6"
   }
 }

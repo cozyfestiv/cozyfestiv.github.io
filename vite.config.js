@@ -4,9 +4,12 @@ import react from '@vitejs/plugin-react-swc'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  main: 'src/index.jsx',
+  root: 'src',
   build: {
     rollupOptions: {
+      input: {
+        main: 'src/index.jsx'
+      },
       output: {
         manualChunks: undefined
       }
