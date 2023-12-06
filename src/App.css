@@ -125,6 +125,17 @@
   background-color: #04aa6d;
   padding: 12px 15px;
   border-radius: 0;
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    color: grey;
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
 
 /* experience and projects */

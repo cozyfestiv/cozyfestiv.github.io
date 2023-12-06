@@ -3,6 +3,8 @@ import "./App.css";
 import { NavBar } from "./components/NavBar";
 import { Contact } from "./components/Contact";
 import profileVert from "./images/profile-vert.jpg";
+import ptables from "./images/periodic-tables.png";
+import wlm from "./images/wlm.png";
 
 function App() {
   return (
@@ -18,15 +20,17 @@ function App() {
           <p className="bioCopy">
             Based in Philadelphia, I'm a Front-end developer with a background
             in art and writing looking to write code in the field of
-            Environmental sustainability. I want to connect people to under-used
+            environmental sustainability. I want to connect people to under-used
             resources and use lean code to create new solutions and make current
             systems less wasteful. I am skilled in visual communications, with
             an eye towards storytelling and creative problem solving.
           </p>
           <br />
-          <a href="#contactId" className="contact">
-            CONTACT ME
-          </a>
+          <div className="center">
+            <a href="#contactId" className="contact">
+              CONTACT ME
+            </a>
+          </div>
         </div>
         <div className="col">
           <img src={profileVert} className="profilePic"></img>
@@ -34,37 +38,6 @@ function App() {
       </div>
 
       <hr />
-
-      <div className="expBlock">
-        <div className="exp row">
-          <div className="col3">
-            <h2>HTML </h2>
-            <p>1 Year Experience</p>
-          </div>
-          <div className="col3">
-            <h2>CSS </h2>
-            <p>1 Year Experience</p>
-          </div>
-          <div className="col3">
-            <h2>JavaScript </h2>
-            <p>1 Year Experience</p>
-          </div>
-        </div>
-        <div className="exp row">
-          <div className="col3">
-            <h2>Accessibility</h2>
-            <p>1 Year Experience</p>
-          </div>
-          <div className="col3">
-            <h2>React </h2>
-            <p>1 Year Experience</p>
-          </div>
-          <div className="col3">
-            <h2>Express </h2>
-            <p>1 Year Experience</p>
-          </div>
-        </div>
-      </div>
 
       <div className="projectHead row">
         <h1>Projects</h1>{" "}
